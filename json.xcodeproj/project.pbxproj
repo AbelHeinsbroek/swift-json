@@ -11,6 +11,7 @@
 		4DC40C4C1D0125E500FD0ACC /* swiftjson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC40C421D0125E500FD0ACC /* swiftjson.framework */; };
 		4DC40C511D0125E500FD0ACC /* swift_jsonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC40C501D0125E500FD0ACC /* swift_jsonTests.swift */; };
 		4DC40C591D0125F900FD0ACC /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E66B57C19F5E46F0016A7C1 /* json.swift */; };
+		4DD138861D75779200E98945 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E66B57C19F5E46F0016A7C1 /* json.swift */; };
 		9E5CC2DB1C5B1F2700A19CE8 /* tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5CC2DA1C5B1F2700A19CE8 /* tap.swift */; };
 		9E66B57619F5E3F30016A7C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E66B57519F5E3F30016A7C1 /* main.swift */; };
 		9E66B57D19F5E46F0016A7C1 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E66B57C19F5E46F0016A7C1 /* json.swift */; };
@@ -205,9 +206,11 @@
 				TargetAttributes = {
 					4DC40C411D0125E500FD0ACC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					4DC40C4A1D0125E500FD0ACC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					9E66B57119F5E3F30016A7C1 = {
 						CreatedOnToolsVersion = 6.1;
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC40C511D0125E500FD0ACC /* swift_jsonTests.swift in Sources */,
+				4DD138861D75779200E98945 /* json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -334,6 +339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -354,6 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sgrksmt.swift-jsonTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -370,6 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sgrksmt.swift-jsonTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -413,6 +421,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -447,6 +456,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -474,6 +484,7 @@
 				4DC40C541D0125E500FD0ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC40C581D0125E500FD0ACC /* Build configuration list for PBXNativeTarget "swift-jsonTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +493,7 @@
 				4DC40C561D0125E500FD0ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E66B56D19F5E3F30016A7C1 /* Build configuration list for PBXProject "json" */ = {
 			isa = XCConfigurationList;
